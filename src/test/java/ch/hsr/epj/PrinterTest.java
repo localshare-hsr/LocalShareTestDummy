@@ -1,19 +1,19 @@
 package ch.hsr.epj;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class PrinterTest {
+public class PrinterTest {
 
   @Test
-  void testDefaultConstructor() {
+  public void testDefaultConstructor() {
     Printer printer = new Printer();
     assertEquals("Hello World!", printer.getString());
   }
 
   @Test
-  void testCustomConstructor() {
+  public void testCustomConstructor() {
     Printer printer = new Printer("Hello HSR");
     assertEquals("Hello HSR", printer.getString());
   }
