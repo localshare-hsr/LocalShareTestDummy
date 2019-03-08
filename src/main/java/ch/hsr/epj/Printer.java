@@ -5,7 +5,7 @@ public class Printer {
   private String hello;
 
   public Printer() {
-    hello = "Hello World!";
+    hello = "Hello Fucking World!";
   }
 
   public Printer(String newString) {
